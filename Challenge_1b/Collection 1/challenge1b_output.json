@@ -1,0 +1,130 @@
+{
+    "metadata": {
+        "input_documents": [
+            "South of France - Cities.pdf",
+            "South of France - Cuisine.pdf",
+            "South of France - History.pdf",
+            "South of France - Restaurants and Hotels.pdf",
+            "South of France - Things to Do.pdf",
+            "South of France - Tips and Tricks.pdf",
+            "South of France - Traditions and Culture.pdf"
+        ],
+        "persona": "Travel Planner",
+        "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+        "processing_timestamp": "2025-07-20T14:04:14.889427"
+    },
+    "extracted_sections": [
+        {
+            "document": "South of France - Cities.pdf",
+            "section_title": "The South of France is home to a diverse array of cities, each with its own unique history,",
+            "importance_rank": 1,
+            "page_number": 14
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "section_title": "Overview of the Region",
+            "importance_rank": 2,
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "section_title": "The South of France, or \"Le Midi,\" encompasses the regions of Provence -Alpes -C\u00f4te d'Azur,",
+            "importance_rank": 3,
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "section_title": "Occitanie, and parts of Nouvelle -Aquitaine.  This area is renowned for its diverse landscapes,",
+            "importance_rank": 4,
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "section_title": "Travel Tips",
+            "importance_rank": 5,
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Cuisine.pdf",
+            "section_title": "The South of France o\ufb00ers a rich and diverse culinary landscape that is sure to delight any",
+            "importance_rank": 6,
+            "page_number": 8
+        },
+        {
+            "document": "South of France - Cuisine.pdf",
+            "section_title": "A Culinary Journey Through the South of France",
+            "importance_rank": 7,
+            "page_number": 1
+        },
+        {
+            "document": "South of France - Cuisine.pdf",
+            "section_title": "The South of France, known for its stunning landscapes and charming villages, is also a",
+            "importance_rank": 8,
+            "page_number": 1
+        },
+        {
+            "document": "South of France - Cuisine.pdf",
+            "section_title": "Culinary Experiences",
+            "importance_rank": 9,
+            "page_number": 6
+        },
+        {
+            "document": "South of France - Cuisine.pdf",
+            "section_title": "consider",
+            "importance_rank": 10,
+            "page_number": 6
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "South of France - Cities.pdf",
+            "refined_text": "Use this guide to plan your journey through the South of France and immerse yourself in the fascinating history and culture of this beautiful re gion. Conclusion The South of France is home to a diverse array of cities, each with its own unique history, culture, and attractions. From the ancient Roman ruins of Arles and N\u00eemes to the medieval fortresses of Carcassonne and Avignon, each city o\ufb00ers a glimpse into the rich heritage of the region.",
+            "page_number": 14
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "refined_text": "Learning a few basic French phrases can enhance your travel experience. Transportation : The region is well -connected by an extensive network of trains, buses, and flights. The Mediterranean climate ensures warm summers and mild winters, making it a year -round destination.",
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Cuisine.pdf",
+            "refined_text": "Use this guide to plan your culinary journey and savor the tastes of the South of France, creating memories that will linger long after your trip has ended. Conclusion The South of France o\ufb00ers a rich and diverse culinary landscape that is sure to delight any food lo ver. Whether you're savoring a bowl of bouillabaisse by the sea, exploring vibrant food markets, or indulging in a Mich elin-starred meal, the flavors of this beautiful region will leave a lasting impression.",
+            "page_number": 8
+        },
+        {
+            "document": "South of France - Cuisine.pdf",
+            "refined_text": "This guide will take you through the di\ufb00erent types of food, famous dishes, must -visit restaurants, renowned wine regions, and the types of wines they produce to help you plan an unforg ettable culinary adventure. A Culinary Journey Through the South of France Introduction The South of France, known for its stunning landscapes and charming villages, is also a paradise for food lovers.",
+            "page_number": 1
+        },
+        {
+            "document": "South of France - Cuisine.pdf",
+            "refined_text": "Join a tru\ufb04e hunting tour to experience the thrill of searching for these prized fungi. Dining at a farm -to-table restaurant is a wonderful way to support local agriculture and enjoy the freshest ingredients available. These classes are a great way to immerse yourself in the local culture and gain hands -on experience with regional recipes.",
+            "page_number": 6
+        },
+        {
+            "document": "South of France - History.pdf",
+            "refined_text": "This guide will take you through the histories of major cities, famous historical sites, and other points of interest to help you plan an enriching and unforgettable trip.",
+            "page_number": 1
+        },
+        {
+            "document": "South of France - History.pdf",
+            "refined_text": "Use this guide to plan your journey through the South of France and immerse yourself in the fascinating history of this beautiful region. Conclusion The South of France o\ufb00ers a rich tapestry of history, culture, and architecture that is sure to captivate any traveler. From the ancient Roman ruins of N\u00eemes and Arles to the medieval fortresses of Carcassonne and Avignon, each city and town has its own u nique story to tell.",
+            "page_number": 12
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "refined_text": "Whether you're looking for budget -friendly eateries, family -friendly spots, upscale dining, or luxurious experiences, this guide will help you find the perfect places to eat and stay during your trip. From the vibrant cities of Nice and Marseille to the charming villages of Provence, the South of France promises an unforgettable travel experience.",
+            "page_number": 14
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "refined_text": "Whether you're looking for budget -friendly options, family -friendly spots, upscale dining, or luxurious experiences, this guide will help you find t he perfect restaurants and hotels for your trip. Comprehensive Guide to Restaurants and Hotels in the South of France Introduction The South of France, known for its stunning landscapes, rich cultural heritage, and exquisite cuisine, is a dream destination for travelers.",
+            "page_number": 1
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "refined_text": "Le Park 45 (Cannes): A Michelin -starred restaurant o\ufb00ering a variety of dishes made with fresh, local ingredients.",
+            "page_number": 5
+        }
+    ]
+}
