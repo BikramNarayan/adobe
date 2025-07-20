@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  pdf-analyzer:
+    build: .
+    container_name: pdf-analyzer
+    volumes:
+      - ./Collection 1:/app/collections/Collection_1:ro
+      - ./Collection 2:/app/collections/Collection_2:ro
+      - ./Collection 3:/app/collections/Collection_3:ro
+      - ./outputs:/app/outputs
+    working_dir: /app
+    command: python pdf_analyzer.py --all --base-dir /app/collections
+    
+  # Alternative service for processing specific collection
+  pdf-analyzer-single:
+    build: .
+    container_name: pdf-analyzer-single
+    volumes:
+      - ./Collection 1:/app/collections/Collection_1:ro
+      - ./Collection 2:/app/collections/Collection_2:ro
+      - ./Collection 3:/app/collections/Collection_3:ro
+      - ./outputs:/app/outputs
+    working_dir: /app
+    profiles: ["single"]
+    # Override command when running: docker-compose run pdf-analyzer-single python pdf_analyzer.py --collection /app/collections/Collection_1
