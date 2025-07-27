@@ -10,9 +10,10 @@
 
 ### Build the Docker Image
 
-Open a terminal in the `Challenge_1a` directory and run:
+Open a terminal and run:
 
 ```sh
+cd Challenge_1a
 docker build -t img1 .
 ```
 
@@ -42,9 +43,10 @@ docker run --rm \
 
 ### Build the Docker Image
 
-Open a terminal in the `Challenge_1b` directory and run:
+Open a terminal and run:
 
 ```sh
+cd Challenge_1b
 docker build -t img2 .
 ```
 
